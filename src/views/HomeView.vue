@@ -70,22 +70,27 @@ const onclickXTwitter = () => {
 <style scoped>
 img {
   width: 100%;
+  min-width: 520px;
 }
 #top_image{
   position: relative;
+  max-width: 100vw;
+  overflow: hidden;
 }
 .top_image_releasedate{
   position: absolute;
-  top: 80%;
+  max-width: 100vw;
+  min-width: 300px;
+  top: 79%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 5.5vh;
+  font-size: 3em;
   color: white;
   text-shadow: #222 3px 1.5px 5px;
+  line-height: 1.05;
 
   overflow: hidden;
-  white-space: nowrap;
 }
 .top_image_overlay {
   position: absolute;
@@ -95,16 +100,18 @@ img {
   width: 35vw;
 }
 .index-title {
-  font-size: 3em;
+  font-size: 3.2em;
   text-align: left !important; 
   margin: 32px 0;
   color: #eee;
 }
 .recent-grid {
   display: flex;
+  flex-flow: row wrap;
 }
 .devlog-grid {
   display: flex;
+  flex-flow: row wrap;
 }
 #contact{
   position: relative;
