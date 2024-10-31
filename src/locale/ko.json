@@ -1,0 +1,40 @@
+{
+  "header":{
+    "buttons":{
+      "recent": "Recent",
+      "devlog": "DevLog",
+      "contact": "Contact"
+    }
+  },
+  "index":{
+    "topimage":{
+      "releasedate": "2025년 상반기 발매 예정"
+    },
+    "recent":{
+      "title": "최근 소식",
+      "articles": [
+        {
+          "title":"봉래제 참가",
+          "desc":"2월 8일 일산 킨텍스에서 개최되는 4회 봉래제에 베타 데모버전 게임 체험부스로 참가할 예정입니다"
+        }
+      ]
+    },
+    "devlog":{
+      "title": "DevLog",
+      "articles": [
+        {
+          "title": "56번째 데브로그",
+          "link": "https://twitter.com/Uranium59/status/1849880164144156694"
+        },
+        {
+          "title": "55번째 데브로그",
+          "link": "https://twitter.com/Uranium59/status/1847303066665808009"
+        }
+      ]
+    },
+    "contact":{
+      "title": "Contact",
+      "text1": "게임 관련 문의사항은 이메일을 통해서만 받고 있습니다."
+    }
+  }
+}
